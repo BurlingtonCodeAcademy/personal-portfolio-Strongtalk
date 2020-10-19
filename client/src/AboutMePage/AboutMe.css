@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Coda);
+
+* {
+    font-family: 'Coda', sans-serif;
+}
+
+
+
+#header-container {
+    display: flex;
+    height: 30vh;
+   
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+
+}
+
+#main-body-wrapper {
+    display: flex;
+    
+    height: 110vh;
+    
+    
+}
+
+#para-container {
+    display: flex;
+    
+    height: 120vh;
+    width: 35vw;
+    flex-direction: column;
+}
+
+.para-wrapper {
+    display: flex;
+    height: 50vh;
+    width: 30vw;
+    font-size: 20px;
+    padding-left: 40px;
+    border-bottom: 4px double black;
+}
+
+#right-image-container {
+    display: flex;
+    height: 120vh;
+    width: 66w;
+    
+    margin-left: 20px;
+    justify-content: center;
+    
+}

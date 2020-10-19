@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Coda);
+/* image container */
+#image-wrapper {
+    font-family: 'Coda', sans-serif;
+    display: flex;
+    height: 80vh;
+    width: 99vw;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px double black;
+}
+
+* {
+    font-family: 'Coda', sans-serif;
+}
+
+
+
+/* profile photo */
+
+#Home-photo {
+    height: 50vh;
+    width: auto;
+
+}
+/* this is addressing all h3s but its specifically focusing my description */
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Title of the list */ 
+
+h2 {
+display: flex; 
+justify-content: center;
+text-decoration-line: underline;
+border-top: 5px double black;
+height: 10vh; 
+align-items: center;
+}
+
+/* list of anchors to other page */
+
+#anchor-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 10px;
+
+}
