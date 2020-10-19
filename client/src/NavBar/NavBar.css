@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Coda);
+
+
+* {
+    font-family: 'Coda', sans-serif;
+}
+
+
+
+#sidebar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px solid black;
+    height: 4vh;
+
+}
+
+* {
+    font-family: 'Coda', sans-serif;
+}
+
+
+button {
+    height: 4vh;
+    width: 5vw;
+}

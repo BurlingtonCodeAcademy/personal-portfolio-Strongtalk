@@ -1,0 +1,49 @@
+
+#Image-Component {
+    display: flex;
+    height: 140vh;
+    width: 61.5vw;
+    
+}
+
+.comp-image-container {
+    display: flex;
+    height: 100vh;
+    width: 61.5vw;
+    
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+.image-column {
+    display: flex;
+    
+    height: 80vh;
+    width: 30.7vw;
+    
+    justify-content: space-between;
+
+}
+
+.images {
+    display: flex;
+    height: 35vh;
+    width: 20vw;
+    
+}
+
+
+.img-box {
+    height: auto;
+    width: 25vw;
+    
+}
+
+#img-box-alt {
+    height: auto;
+    width: 40vw;
+}

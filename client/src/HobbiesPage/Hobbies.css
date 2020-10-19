@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Coda);
+
+* {
+    font-family: 'Coda', sans-serif;
+}
+
+#hobby-title {
+   justify-self: center; 
+   font-size: 30px;
+}
+
+#Hobby-para-wrapper {
+    display: flex;
+    height: 80vh;
+    width: 99vw; 
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hobby-para-container {
+    display: flex;
+    height: 60vh;
+    width: 50vw;
+   
+    padding-right: 20px;
+}
+

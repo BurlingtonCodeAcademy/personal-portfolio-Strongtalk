@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Coda);
+
+* {
+    font-family: 'Coda', sans-serif;
+}
+
+
+#projects-title {
+    justify-self: center; 
+    font-size: 30px;
+    justify-content: center;
+ }
+
+ #project-wrapper {
+     display: flex;
+     height: 100vh;
+     width: 100vw;
+     margin: 0;
+     flex-direction: column;
+     
+ }
+
+ #List-wrapper {
+     display: flex;
+     justify-content: center;
+ }
+
+ #project-list-title {
+     justify-content: center;
+     align-items: flex-end;
+     display: flex;
+     height: 20vh;
+ }
+
+ #project-container {
+     display: flex;
+     height: 40vh;
+     width: 60vw;
+     
+     justify-content: center;
+ }
+
+ .project-icon {
+     height: 4vh;
+     width: 2.2vw;
+ }
+
+
+ 
