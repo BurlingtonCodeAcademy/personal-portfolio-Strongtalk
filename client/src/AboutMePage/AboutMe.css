@@ -1,52 +1,30 @@
+/* Imported fonts*/
 @import url(https://fonts.googleapis.com/css?family=Coda);
 
+/* Applying same font throughout page*/
 * {
     font-family: 'Coda', sans-serif;
 }
 
-
-
+/* This is the header container for this page*/
 #header-container {
     display: flex;
     height: 30vh;
-   
     justify-content: center;
     align-items: center;
-    text-decoration: underline;
-
+    text-decoration: none;
 }
 
+/* Flex box parent to wrap page*/
 #main-body-wrapper {
     display: flex;
-    
-    height: 110vh;
-    
-    
+    height: 110vh; 
 }
 
-#para-container {
+/*Container for the text*/
+.para-container {
     display: flex;
-    
-    height: 120vh;
+    height: auto;
     width: 35vw;
     flex-direction: column;
-}
-
-.para-wrapper {
-    display: flex;
-    height: 50vh;
-    width: 30vw;
-    font-size: 20px;
-    padding-left: 40px;
-    border-bottom: 4px double black;
-}
-
-#right-image-container {
-    display: flex;
-    height: 120vh;
-    width: 66w;
-    
-    margin-left: 20px;
-    justify-content: center;
-    
 }

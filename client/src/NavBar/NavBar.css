@@ -6,7 +6,7 @@
 }
 
 
-
+/*Wrapper for the nav bar*/
 #sidebar-wrapper {
     display: flex;
     justify-content: space-between;
@@ -15,12 +15,13 @@
 
 }
 
-* {
-    font-family: 'Coda', sans-serif;
-}
-
-
+/* Button sizes*/
+@media screen
+and (height: 450px)
+and (width: 480px) {
 button {
     height: 4vh;
     width: 5vw;
+    background-color: red;
+}
 }

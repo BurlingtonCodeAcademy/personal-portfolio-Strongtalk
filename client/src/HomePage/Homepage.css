@@ -17,12 +17,12 @@
 
 
 /* profile photo */
-
 #Home-photo {
     height: 50vh;
     width: auto;
 
 }
+
 /* this is addressing all h3s but its specifically focusing my description */
 h3 {
     display: flex;
@@ -30,7 +30,6 @@ h3 {
 }
 
 /* Title of the list */ 
-
 h2 {
 display: flex; 
 justify-content: center;
@@ -41,7 +40,6 @@ align-items: center;
 }
 
 /* list of anchors to other page */
-
 #anchor-container {
     display: flex; 
     justify-content: center;
