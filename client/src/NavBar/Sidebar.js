@@ -2,7 +2,7 @@
 import React from "react";
 import "./NavBar.css";
 
-
+//This is my nav bar
 function Sidebar(props) {
   return (
     <div id="sidebar-wrapper">

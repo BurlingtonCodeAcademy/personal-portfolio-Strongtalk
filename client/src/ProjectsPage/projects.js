@@ -1,7 +1,8 @@
+// Imports 
 import React from "react";
 import "./Project.css";
 
-// Again I wish I had more time to work on this... I will icebox
+// This deals with the project page
 function Projects() {
   return (
     <div>
@@ -13,12 +14,13 @@ function Projects() {
           <h4>A List of Projects: </h4>
         </div>
         <div id="List-wrapper">
+          {/**This is the list of project broken down into smaller individually columns */}
           <div id="project-container">
             <ul>
               <a href="https://aswewere.bandcamp.com/">
                 <img
                   class="project-icon"
-                  src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/10424236_745356845509998_7193426038205609712_n.jpg?_nc_cat=111&_nc_sid=cdbe9c&_nc_ohc=CCN7rLb5Ac0AX9Iipr_&_nc_ht=scontent-lga3-1.xx&oh=a3e75928f7a31e939e29dfaa5082b5e7&oe=5FB0774D"
+                  src="/images/AS-WE-WERE.jpg"
                   alt="as we were"
                 ></img>
                 As We Were(a band a long, long time ago...){" "}
@@ -28,7 +30,7 @@ function Projects() {
               <a href="https://cbrasnke.bandcamp.com/album/but-first-they-must-catch-you">
                 <img
                   class="project-icon"
-                  src="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/13754452_644689345697479_3769589259653122665_n.jpg?_nc_cat=100&_nc_sid=19026a&_nc_ohc=r28jB7WulGYAX-Dkt7L&_nc_ht=scontent-lga3-1.xx&oh=8c26cfe70a7f57fa21726b372a50e4d2&oe=5FB1C548"
+                  src="/images/CBRASNKE.jpg"
                   alt="CBRASNKE"
                 ></img>
                 CBRASNKE(a band not so long ago)

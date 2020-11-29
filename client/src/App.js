@@ -1,54 +1,36 @@
-import React, { useState } from 'react';
-import './App.css';
-import AboutMe from "./AboutMePage/AboutMe"
-import Sidebar from "./NavBar/Sidebar"
-import Work from "./WorkPage/work"
-import Projects from "./ProjectsPage/projects.js"
-import Hobbies from "./HobbiesPage/hobbies"
-import Contact from "./ContactFooter/Contact"
-import HomePage from './HomePage/Homepage';
+// global imports
+import React, { useState } from "react";
+import "./App.css";
+import AboutMe from "./AboutMePage/AboutMe";
+import Sidebar from "./NavBar/Sidebar";
+import Work from "./WorkPage/work";
+import Projects from "./ProjectsPage/projects.js";
+import Hobbies from "./HobbiesPage/hobbies";
+import Contact from "./ContactFooter/Contact";
+import HomePage from "./HomePage/Homepage";
 
 
-
+// I would ultimately like to redo this entire project but frankly dont have the time to start plugging away
+// I'm handing this resubmission in so my readability grade is fixed. I know previously I had almost no comments
 function App(props) {
-
-  const [shownPage, setShownPage] = useState('Homepage')
-
+  const [shownPage, setShownPage] = useState("Homepage");
 
   function sidebarHandler(evt) {
-    setShownPage(evt.target.id)
-
+    setShownPage(evt.target.id);
   }
 
-
-
-  /* This is in no way shape or form my best work... I tried to plug away at this project
-   all weekend and unfortunately only got to this point. I really feel like I could've done
-  more if I had grasped these concepts earlier on... I also feel like I'm not using all the 
-  newly taught code as well as I could be. 
-  This past week was really difficult for me in class and I definitely needed more assistance / practice 
-  before this past weekend. My only wish from grading is you guys could give me 
-  suggestions about were to implement some of the new code you wouldve liked to see... 
-  In other words, simple CSS and HTML fixes I can handle googling but the React stuff is really were
-  I could use some feedback. I really want to learn how to use React, 
-  React render DOM, and make better components */
-
-
-
-
-
+  //This is how the nav bar links everything 
   return (
     <div className="App">
       <Sidebar sidebarHandler={sidebarHandler} />
 
-      {shownPage === 'Homepage' ? <HomePage /> : null}
-      {shownPage === 'AboutMe' ? <AboutMe /> : null}
-      {shownPage === 'Work' ? <Work /> : null}
-      {shownPage === 'Projects' ? <Projects /> : null}
-      {shownPage === 'Hobbies' ? <Hobbies /> : null}
+      {shownPage === "Homepage" ? <HomePage /> : null}
+      {shownPage === "AboutMe" ? <AboutMe /> : null}
+      {shownPage === "Work" ? <Work /> : null}
+      {shownPage === "Projects" ? <Projects /> : null}
+      {shownPage === "Hobbies" ? <Hobbies /> : null}
 
       <Contact />
-
     </div>
   );
 }

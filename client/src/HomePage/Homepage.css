@@ -1,4 +1,14 @@
+/*FONT IMPORT*/
 @import url(https://fonts.googleapis.com/css?family=Coda);
+
+* {
+    font-family: 'Coda', sans-serif;
+}
+
+body {
+    background-color: rgb(238, 230, 202);
+}
+
 /* image container */
 #image-wrapper {
     font-family: 'Coda', sans-serif;
@@ -9,12 +19,6 @@
     align-items: center;
     border-bottom: 5px double black;
 }
-
-* {
-    font-family: 'Coda', sans-serif;
-}
-
-
 
 /* profile photo */
 #Home-photo {

@@ -1,35 +1,34 @@
+/*This is the header*/
 #Work-title {
     display: flex;
     justify-content: center;
     font-size: 30px;
 }
 
+h5 {
+    font-size: 24px;
+}
 
-
+/*This wraps the container */ 
 #work-container-wrapper {
     display: flex;
     height: 120vh;
     width: 99vw;
     justify-content: center;
-    
 }
 
 #title-container {
     display: flex;
     justify-content: center;
 }
-h5 {
-    font-size: 24px;
-}
 
+/* This is the container*/
 #work-container {
     display: flex; 
     height: 80vh;
     width: 60vw;
-    
     justify-content: center;
     flex-direction: column;
-    
 }
 
 #work-para-container {
@@ -42,4 +41,10 @@ h5 {
 #worklist-container {
     display: flex;
     justify-content: center;
+}
+
+/* This is the actual paragraph of text itself*/
+#paraWork {
+    position: relative;
+    left: 120px;
 }

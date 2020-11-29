@@ -1,23 +1,23 @@
-import { findAllByTitle } from "@testing-library/react";
+
+// imports 
 import React from "react";
 import "./Work.css";
 
-
-// Can't get my resume to link, needs more work if I had more time
+// This is my work history page // and resume 
 function Work() {
   return (
     <div>
       <div id="header-container">
         <h4 id="Work-title">Work History!</h4>
       </div>
-
+{/** This is the container for the paragraph about work history */}
       <div id="work-container-wrapper">
         <div id="work-container">
           <div id="title-container">
             <h5>All of my Experience:</h5>
           </div>
           <div id="work-para-container">
-            <p>
+            <p id="paraWork">
               My professional goals include; breaching my way into the software
               industry and landing a remote full-time position. My personal
               goals include; developing a game, and making more of my music
